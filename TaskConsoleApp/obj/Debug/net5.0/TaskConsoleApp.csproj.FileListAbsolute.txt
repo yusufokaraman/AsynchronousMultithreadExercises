@@ -1,0 +1,16 @@
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\TaskConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\TaskConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\TaskConsoleApp.AssemblyInfo.cs
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\TaskConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\bin\Debug\net5.0\TaskConsoleApp.exe
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\bin\Debug\net5.0\TaskConsoleApp.deps.json
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\bin\Debug\net5.0\TaskConsoleApp.runtimeconfig.json
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\bin\Debug\net5.0\TaskConsoleApp.runtimeconfig.dev.json
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\bin\Debug\net5.0\TaskConsoleApp.dll
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\bin\Debug\net5.0\ref\TaskConsoleApp.dll
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\bin\Debug\net5.0\TaskConsoleApp.pdb
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\TaskConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\TaskConsoleApp.dll
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\ref\TaskConsoleApp.dll
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\TaskConsoleApp.pdb
+C:\Users\Yusuf\source\repos\TaskFormApp\TaskConsoleApp\obj\Debug\net5.0\TaskConsoleApp.genruntimeconfig.cache
