@@ -136,6 +136,32 @@ namespace TaskConsoleApp
 
             #region WaitAny
             //Çağrılmış olduğu thread i bloklar. 
+            //Console.WriteLine("Main Thread: " + Thread.CurrentThread.ManagedThreadId);
+
+            //List<string> urlsList = new List<string>()
+            //{
+            //       "https://www.google.com",
+            //       "https://fenerbahce.org",
+            //       "https://n11.com",
+            //};
+
+            //List<Task<Content>> taskList = new List<Task<Content>>();
+
+            //urlsList.ToList().ForEach(x =>
+            //{
+            //    taskList.Add(GetContentAsync(x));
+            //});
+
+            //Console.WriteLine("WaitAny metodundan önce");
+
+            ////var isCompleted = Task.WaitAll(taskList.ToArray(), 300);
+
+            //var firstTaskIndex = Task.WaitAny(taskList.ToArray());
+
+            //Console.WriteLine($"{taskList[firstTaskIndex].Result.Site} - {taskList[firstTaskIndex].Result.Leng}");
+            #endregion
+
+            #region Delay
             Console.WriteLine("Main Thread: " + Thread.CurrentThread.ManagedThreadId);
 
             List<string> urlsList = new List<string>()
@@ -156,9 +182,17 @@ namespace TaskConsoleApp
 
             //var isCompleted = Task.WaitAll(taskList.ToArray(), 300);
 
-            var firstTaskIndex = Task.WaitAny(taskList.ToArray());
+            var contents = await Task.WhenAll(taskList.ToArray());
 
-            Console.WriteLine($"{taskList[firstTaskIndex].Result.Site} - {taskList[firstTaskIndex].Result.Leng}");
+            contents.ToList().ForEach(x =>
+            {
+
+                Console.WriteLine(x.Site);
+
+            });
+
+
+
             #endregion
 
         }
@@ -173,6 +207,8 @@ namespace TaskConsoleApp
         {
             Content content = new Content();
             var data = await new HttpClient().GetStringAsync(url);
+
+            await Task.Delay(3000);
 
             content.Site = url;
             content.Leng = url.Length;
