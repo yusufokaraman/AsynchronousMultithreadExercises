@@ -1,0 +1,16 @@
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\bin\Debug\net5.0\ConsoleTaskApp.exe
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\bin\Debug\net5.0\ConsoleTaskApp.deps.json
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\bin\Debug\net5.0\ConsoleTaskApp.runtimeconfig.json
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\bin\Debug\net5.0\ConsoleTaskApp.runtimeconfig.dev.json
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\bin\Debug\net5.0\ConsoleTaskApp.dll
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\bin\Debug\net5.0\ref\ConsoleTaskApp.dll
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\bin\Debug\net5.0\ConsoleTaskApp.pdb
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.csproj.AssemblyReference.cache
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.AssemblyInfoInputs.cache
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.AssemblyInfo.cs
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.csproj.CoreCompileInputs.cache
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.dll
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ref\ConsoleTaskApp.dll
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.pdb
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.genruntimeconfig.cache
