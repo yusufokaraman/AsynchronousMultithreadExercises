@@ -1,35 +1,30 @@
 ﻿using System;
-using System.Threading;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace ConsoleTaskApp
 {
     class Program
-    {
-        public class Status
-        {
-            public int ThreadId { get; set; }
-            public DateTime dateTime { get; set; }
-        }
+    {        
+        public static string  CacheData { get; set; }
         private async static Task Main(string[] args)
         {
-            var myTask = Task.Factory.StartNew((Obj) => {
+            ///FromResult() cachelenmiş datayı dönmek için kullanılır genellikle.
 
-                Console.WriteLine("myTask çalıştı!");
+            CacheData = await GetDataAsync();
+            Console.WriteLine(CacheData);
 
-                var status = Obj as Status;
+        }
 
-                status.ThreadId = Thread.CurrentThread.ManagedThreadId;
-            },     new Status() { dateTime =DateTime.Now} );
-
-            await myTask;
-
-            var s = myTask.AsyncState as Status;
-
-            Console.WriteLine(s.dateTime);
-            Console.WriteLine(s.ThreadId);
+        public static Task<string> GetDataAsync()
+        {
+            if (String.IsNullOrEmpty(CacheData))
+                return File.ReadAllTextAsync("dosya.txt");
+            else
+                return Task.FromResult<string>(CacheData);
 
 
         }
+
     }
 }

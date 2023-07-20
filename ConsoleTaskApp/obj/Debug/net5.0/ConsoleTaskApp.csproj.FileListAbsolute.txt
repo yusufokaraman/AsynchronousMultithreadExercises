@@ -14,3 +14,4 @@ D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\Consol
 D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ref\ConsoleTaskApp.dll
 D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.pdb
 D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\obj\Debug\net5.0\ConsoleTaskApp.genruntimeconfig.cache
+D:\other\AsynchronousMultithreadExercises\ConsoleTaskApp\bin\Debug\net5.0\dosya.txt

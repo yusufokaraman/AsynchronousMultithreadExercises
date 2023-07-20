@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6XFSFlXQ0v/jkZlrzM6oGNPznOT1CVsPWFbU9wb+Gdg4Vkamg+lLzq8mAFqOKz/UxQznNiqvlC3A1JTM4weJ1w==",
+  "dgSpecHash": "20NzlHJxHYpme5sR2eSZ6/mXGi/UwLEmp4WqJOwuEODrCt1MzuiT09B6ehY+6mxNsGdT0+GZTFMcyvo80Fn8Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yusuf\\source\\repos\\TaskFormApp\\ConsoleTaskApp\\ConsoleTaskApp.csproj",
+  "projectFilePath": "D:\\other\\AsynchronousMultithreadExercises\\ConsoleTaskApp\\ConsoleTaskApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -9,3 +9,14 @@ C:\Users\Yusuf\source\repos\TaskFormApp\TaskFormApp\obj\Debug\TaskFormApp.csproj
 C:\Users\Yusuf\source\repos\TaskFormApp\TaskFormApp\obj\Debug\TaskFormApp.csproj.CoreCompileInputs.cache
 C:\Users\Yusuf\source\repos\TaskFormApp\TaskFormApp\obj\Debug\TaskFormApp.exe
 C:\Users\Yusuf\source\repos\TaskFormApp\TaskFormApp\obj\Debug\TaskFormApp.pdb
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\bin\Debug\dosya.txt
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\bin\Debug\TaskFormApp.exe.config
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\bin\Debug\TaskFormApp.exe
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\bin\Debug\TaskFormApp.pdb
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\obj\Debug\TaskFormApp.csproj.AssemblyReference.cache
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\obj\Debug\TaskFormApp.Form1.resources
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\obj\Debug\TaskFormApp.Properties.Resources.resources
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\obj\Debug\TaskFormApp.csproj.GenerateResource.cache
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\obj\Debug\TaskFormApp.csproj.CoreCompileInputs.cache
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\obj\Debug\TaskFormApp.exe
+D:\other\AsynchronousMultithreadExercises\TaskFormApp\obj\Debug\TaskFormApp.pdb

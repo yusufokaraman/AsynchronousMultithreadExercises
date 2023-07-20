@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskThreadApp", "TaskThread
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTaskApp", "ConsoleTaskApp\ConsoleTaskApp.csproj", "{D8A74E9E-F8B5-47CB-A13A-197FF1AB575C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancelationApp", "TaskCancelationApp\TaskCancelationApp.csproj", "{A78263B8-0B91-4567-987A-718DFB9A3D7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D8A74E9E-F8B5-47CB-A13A-197FF1AB575C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8A74E9E-F8B5-47CB-A13A-197FF1AB575C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8A74E9E-F8B5-47CB-A13A-197FF1AB575C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78263B8-0B91-4567-987A-718DFB9A3D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78263B8-0B91-4567-987A-718DFB9A3D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78263B8-0B91-4567-987A-718DFB9A3D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78263B8-0B91-4567-987A-718DFB9A3D7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

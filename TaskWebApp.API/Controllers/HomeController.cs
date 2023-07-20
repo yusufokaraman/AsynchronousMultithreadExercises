@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Linq;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace TaskWebApp.API.Controllers
@@ -8,14 +12,46 @@ namespace TaskWebApp.API.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
-        [HttpGet]
-        public async Task<IActionResult> GetContentAsync()
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
         {
-            var myTask = new HttpClient().GetStringAsync("https://fenerbahce.org");
+            _logger = logger;
+        }
 
-            var data = await myTask;
+        [HttpGet]
+        public async Task<IActionResult> GetContentAsync(CancellationToken token)
+        {
+            try
+            {
+                _logger.LogInformation("İstek başladı!");
 
-            return Ok(data);
+                //Automatic handler
+                //await Task.Delay(5000, token);
+
+                //var myTask = new HttpClient().GetStringAsync("https://fenerbahce.org");
+
+                //var data = await myTask;
+
+                Enumerable.Range(1, 10).ToList().ForEach(x => {
+
+                    Thread.Sleep(1000);
+
+                    token.ThrowIfCancellationRequested();
+                
+                });
+
+                _logger.LogInformation("İstek bitti!");
+                return Ok("Process is over!");
+            }
+            catch (Exception ex)
+            {
+
+                _logger.LogInformation("İstek iptal edildi." + ex.Message);
+                return BadRequest();
+            }
+
+           
         }
     }
 }
